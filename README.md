@@ -7,7 +7,7 @@ Show live data through terminal prompt
 3. run python pslive.py
 
 once step 3 is working
-1. add pslive.py /usr/local/bin/
+1. add pslive.py /usr/local/bin/ or a folder in the $PATH
 2. update PS1 prompt in .bash_profile to include pslive.py. e.g.
 PS1="\[\033[01;35m\][\d:\t \u:\w] \033[1;32m\]\$(pslive.py) \n\[\033[m\]🍺  "
 
