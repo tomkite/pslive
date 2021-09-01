@@ -1,5 +1,5 @@
 # pslive
-Show live data through terminal prompt
+Show live data through terminal prompt. I used this to help me learn Spanish :)
 
 ## Setup and run the program. Note: this was tested in python3.6 only
 1. clone this repo
