@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-## author: Tom Cai <1tomcai@gmail.com>
-## date  : 2017-10-31
-## pseudo code
+__author__ = 'Tom Cai <1tomcai@gmail.com>'
+__date__ = '2017-10-31'
+__summary__ = 'A terminal based vocaburary leaning utility interative at every prompt. Tested on python3.'
+
+class PSLive:
+    '''
 * two data files (data.json, wip.json) are stored in <HOME DIR>/.pslive folder. pslive.py will create this folder if not exist
 * if data.json does not exist or too old (default age 3600 seconds)
   - fetch live data from internet and save the data to data.json (more work to be done here, or you can add your own code to fetch live data)
@@ -21,7 +23,7 @@
 1. flashcard: data.json stores words and their definition, example sentences, descriptions, etc.
 2. news flash: data.json stores headlines and short stores
 3. reminder: data.json stores tasks / due dates
-"""
+'''
 
 import json
 import random
